@@ -1,0 +1,17 @@
+======================================
+       HOSPITAL MANAGEMENT REPORT
+======================================
+
+PATIENTS
+--------------------------------------
+Patient: Sam | ID: 2024200000100 | Disease: Diarrhea
+
+DOCTORS
+--------------------------------------
+Doctor: Abul Kalam | ID: 2024590909 | Specialization: Haga Specialization
+
+NURSES
+--------------------------------------
+Nurse: Rumi | ID: 4657567587 | Shift: Day
+
+======================================
