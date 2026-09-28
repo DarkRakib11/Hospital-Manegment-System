@@ -318,6 +318,24 @@ public class SimpleHospitalApp extends JFrame {
 
                 return;
             }
+            if (id.trim().isEmpty() ||
+        name.trim().isEmpty() ||
+        disease.trim().isEmpty()) {
+
+    throw new InvalidDataException(
+            "ID, Name and Disease cannot be empty."
+    );
+}
+
+for (Patient p : patients) {
+
+    if (p.getId().equals(id.trim())) {
+
+        throw new InvalidDataException(
+                "Patient ID already exists."
+        );
+    }
+}
 
             int age =
                     Integer.parseInt(ageText);
